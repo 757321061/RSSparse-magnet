@@ -1,3 +1,7 @@
 # RSSparse-magnet
-用python运行app.py
+
+
+pip install Flask
+pip install feedparser
+然后python运行app.py
 

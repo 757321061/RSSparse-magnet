@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Web 应用</title>
+</head>
+<body>
+    <form method="POST" action="/">
+        <input type="text" name="subscription_text" placeholder="在这里输入 RSS 订阅地址">
+        <input type="text" name="filter_text" placeholder="在这里输入包含规则">
+        <input type="text" name="exclude_text" placeholder="在这里输入排除规则">
+        <button type="submit">确定</button>
+    </form>
+    <pre>{{ output }}</pre>
+</body>
+</html>

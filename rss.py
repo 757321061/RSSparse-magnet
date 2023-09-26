@@ -36,7 +36,7 @@ rss_url = "https://mikanani.me/RSS/Bangumi?bangumiId=2972&subgroupid=243"
 filters = []
 
 # 定义排除规则
-excludes = []  # 按需添加排除规则
+excludes = []
 
 # 获取磁力链接
 links = get_magnet_links(rss_url, filters, excludes)
